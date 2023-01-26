@@ -1,5 +1,5 @@
 import { EventListener } from "./03 - Event-Listener";
-import "./App.css";
+import { PreventDefault } from "./04a - Prevent-Default";
 
 function App() {
   return (
@@ -7,7 +7,8 @@ function App() {
       <header>
         <h2>Event LifeCycle in JavaScript</h2>
       </header>
-      <EventListener />
+      {/* <EventListener /> */}
+      <PreventDefault />
     </div>
   );
 }

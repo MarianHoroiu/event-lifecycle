@@ -1,5 +1,6 @@
 import { EventListener } from "./03 - Event-Listener";
 import { PreventDefault } from "./04a - Prevent-Default";
+import { StopPropagation } from "./04b - Stop-Propagation";
 
 function App() {
   return (
@@ -8,7 +9,8 @@ function App() {
         <h2>Event LifeCycle in JavaScript</h2>
       </header>
       {/* <EventListener /> */}
-      <PreventDefault />
+      {/* <PreventDefault /> */}
+      <StopPropagation />
     </div>
   );
 }
